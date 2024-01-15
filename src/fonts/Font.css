@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "hannaPro";
+  src: url("./BMHANNAPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hannaAir";
+  src: url("./BMHANNAAir_ttf.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
