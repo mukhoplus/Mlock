@@ -4,7 +4,7 @@ import "./HourDot.css";
 const HourDot = ({ second }) => {
   return (
     <div className="hour_dot">
-      <span className="ico_dot dot_12 on" />
+      <span className={`ico_dot dot_12 ${second >= 1 ? "on" : ""}`} />
       <span className={`ico_dot dot_1 ${second >= 5 ? "on" : ""}`} />
       <span className={`ico_dot dot_2 ${second >= 10 ? "on" : ""}`} />
       <span className={`ico_dot dot_3 ${second >= 15 ? "on" : ""}`} />
